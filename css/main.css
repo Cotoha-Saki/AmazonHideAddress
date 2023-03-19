@@ -1,0 +1,18 @@
+a[id="nav-global-location-popover-link"] {
+  filter: blur(6px);
+}
+span[class="nav-line-1 nav-progressive-content"] {
+  filter: blur(6px);
+}
+
+a[class="a-popover-trigger a-declarative insert-encrypted-trigger-text"] {
+  filter: blur(6px);
+}
+
+div[class="a-popover a-popover-no-header a-declarative a-arrow-bottom"] {
+  display: none;
+}
+
+div[id="hmenu-customer-name"] {
+  filter: blur(6px);
+}

@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "AmazonHideAddress",
+  "version": "1.0",
+  "description": "Amazonページのお届け先と名前にブラーをかける拡張機能です。",
+  "content_scripts": [
+    {
+      "matches": ["https://www.amazon.co.jp/*"],
+      "css": ["css/main.css"]
+    }
+  ],
+  "icons": {
+    "128": "icon/icon.png"
+  },
+  "author": "たなかぴよこ"
+}
